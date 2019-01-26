@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS blog;
 CREATE DATABASE blog;
 
-\c blog;
+-- \c blog;
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
